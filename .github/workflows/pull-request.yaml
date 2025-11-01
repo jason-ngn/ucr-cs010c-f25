@@ -10,18 +10,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: jason-ngn/cppformat@v2
+      - uses: jason-ngn/cppformat@v3
 
   lint:
     name: linting
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: jason-ngn/cpplinting@v2
+      - uses: jason-ngn/cpplinting@v3
 
   build:
     name: building
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: jason-ngn/cppbuild@v2
+      - uses: jason-ngn/cppbuild@v3
