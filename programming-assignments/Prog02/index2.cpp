@@ -8,5 +8,6 @@ int main() {
   }
 
   cout << "lmao" << endl;
+  cout << "lolol" << endl;
   return 1;
 }
