@@ -1,8 +1,5 @@
 name: UCR CS010C Code
-on:
-  push:
-    branches: [main]
-  workflow_dispatch:
+on: push
 
 jobs:
   format:
